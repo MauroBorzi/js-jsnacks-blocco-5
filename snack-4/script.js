@@ -9,9 +9,7 @@ const posts = [
 
 const newPosts = []
 
-posts.map((elem) => {
-  newPosts.push(elem.author)
-})
+posts.map(elem => newPosts.push(elem.author))
 
 console.log(newPosts)
 

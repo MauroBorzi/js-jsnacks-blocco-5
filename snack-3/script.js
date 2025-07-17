@@ -4,9 +4,7 @@ const numbers = [2, 8, 4, 7, 2, 87];
 
 const newNumbers = []
 
-numbers.map((number) => {
-  newNumbers.push(number + 1)
-})
+numbers.map(number => newNumbers.push(number + 1))
 
 console.log(newNumbers)
 

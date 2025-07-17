@@ -21,9 +21,7 @@ const students = [
 
 // Recupera i dati dello studente con id 2
 
-const findStudent = students.find((student) => {
-  return student.id === 2
-})
+const findStudent = students.find(student => student.id === 2)
 
 console.log(findStudent)
 
